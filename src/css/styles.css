@@ -1,0 +1,31 @@
+.product{
+    padding: 4px;
+}
+
+.product-desc{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img-cont{
+    padding: 4px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.product-img{
+    width: 100%; 
+    border: 1px black solid; 
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) { 
+        .product-img{
+        width: auto; 
+        height: 100%;
+        border: 1px black solid; 
+        max-height: 300px;
+        padding: 5px;
+    } 
+}
